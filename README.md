@@ -59,4 +59,4 @@ PIL 6.1.0
 To cite the paper: 
 Xu Q., Fang F., del Monlino A.G, Subbaraju V., Lim J.H., Predicting Event Memorability from Contextual Visual Semantics, NeurIPS 2021.
 
-If your have any question, please feel free to contact Dr Xu Qianli: qxu@i2r.a-star.edu.sg
+If you have any question, please feel free to contact Dr Xu Qianli: qxu@i2r.a-star.edu.sg
