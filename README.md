@@ -6,7 +6,7 @@ This repository contains pytorch implementation of five configurations in our pa
 4. Complete extrinsic feature and the memory test outcome is available in 'R3_data.csv' file. Description of the features is given in 'R3_data_notes.txt'
 5. Download R3 dataset @ https://drive.google.com/drive/folders/1Bx_ePv7ui6DCIXkESCpoyuvd0H3B9o6d?usp=sharing
 
-##########################################################################################
+########################################################################################
 
 To train AMNet and CEMNet_wt_AMNet:
 -python3 main.py --train-batch-size 128 --test-batch-size 128 --cnn ResNet50FC --dataset lamem --train-split train_1 --val-split val_1
