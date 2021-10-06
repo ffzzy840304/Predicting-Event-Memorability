@@ -1,10 +1,9 @@
 # Predicting-Event-Memorability-from-Contextual-Visual-Semantics
 This repository contains pytorch implementation of five configurations in our paper "Predicting Event Memorability from Contextual Visual Semantics".
 1. Raw images are to be put in '../datasets/r3/images/'
-2. Train and val splits for different configurations are under '../datasets/r3/splits/'; the set of train_1.txt, val_1.txt, etc. contains image names and memorability scores for the respective split.
+2. Train and validation (val) splits for different configurations are under '../datasets/r3/splits/'; the set of train_1.txt, val_1.txt, etc. contains image names and memorability scores for the respective split.
 3. Configurations of ablation study are with individual folders, e.g., './no_face', './no_activity', etc. './full_set' is for full configuration without removing features. 
-4. Complete extrinsic feature and the memory test outcome is available in 'R3_data.csv' file. Description of the features is given in 'R3_data_notes.txt'
-5. Download R3 dataset @ https://drive.google.com/drive/folders/1Bx_ePv7ui6DCIXkESCpoyuvd0H3B9o6d?usp=sharing
+4. Complete extrinsic features and the memory test outcome is available in 'R3_data.csv' file. Description of the features is given in 'R3_data_notes.txt'. Both can be Download together with the original image cues @ https://drive.google.com/drive/folders/1Bx_ePv7ui6DCIXkESCpoyuvd0H3B9o6d?usp=sharing
 
 ########################################################################################
 
