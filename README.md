@@ -28,17 +28,30 @@ python predict.py
 
 [Where necessary, change Dataset.py to the corresponding directory of split]
 
+########################################################################################
+
 System configuration
+
 platform: UBUNTU 16.04
+
 GPU: GeForce GTX 1080
+
 CUDA:9.0
 
+########################################################################################
+
 Python packages
+
 python 3.5.6
+
 pytorch 0.2.0
+
 Torchvison 0.1.9
+
 Numpy 1.15.2
+
 Opencv 3.1.0
+
 PIL 6.1.0
 
 To cite the paper: 
