@@ -4,6 +4,7 @@ This repository contains pytorch implementation of five configurations in our pa
 2. Train and validation (val) splits for different configurations are under '../datasets/r3/splits/'; the set of train_1.txt, val_1.txt, etc. contains image names and memorability scores for the respective split.
 3. Configurations of ablation study are with individual folders, e.g., './no_face', './no_activity', etc. './full_set' is for full configuration without removing features. 
 4. Complete extrinsic features and the memory test outcome is available in 'R3_data.csv' file. Description of the features is given in 'R3_data_notes.txt'. Both can be download together with the original image cues @ https://drive.google.com/drive/folders/1Bx_ePv7ui6DCIXkESCpoyuvd0H3B9o6d?usp=sharing
+5. The AMNet implementation is adpated from https://github.com/ok1zjf/AMNet
 
 ########################################################################################
 
