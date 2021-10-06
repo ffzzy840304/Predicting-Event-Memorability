@@ -30,7 +30,7 @@ python predict.py
 
 ########################################################################################
 
-System configuration
+System configuration:
 
 platform: UBUNTU 16.04
 
@@ -40,7 +40,7 @@ CUDA:9.0
 
 ########################################################################################
 
-Python packages
+Python packages:
 
 python 3.5.6
 
@@ -53,6 +53,8 @@ Numpy 1.15.2
 Opencv 3.1.0
 
 PIL 6.1.0
+
+########################################################################################
 
 To cite the paper: 
 Xu Q., Fang F., del Monlino A.G, Subbaraju V., Lim J.H., Predicting Event Memorability from Contextual Visual Semantics, NeurIPS 2021.
