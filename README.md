@@ -3,7 +3,7 @@ This repository contains pytorch implementation of five configurations in our pa
 1. Raw images are to be put in '../datasets/r3/images/'
 2. Train and validation (val) splits for different configurations are under '../datasets/r3/splits/'; the set of train_1.txt, val_1.txt, etc. contains image names and memorability scores for the respective split.
 3. Configurations of ablation study are with individual folders, e.g., './no_face', './no_activity', etc. './full_set' is for full configuration without removing features. 
-4. Complete extrinsic features and the memory test outcome is available in 'R3_data.csv' file. Description of the features is given in 'R3_data_notes.txt'. Both can be Download together with the original image cues @ https://drive.google.com/drive/folders/1Bx_ePv7ui6DCIXkESCpoyuvd0H3B9o6d?usp=sharing
+4. Complete extrinsic features and the memory test outcome is available in 'R3_data.csv' file. Description of the features is given in 'R3_data_notes.txt'. Both can be download together with the original image cues @ https://drive.google.com/drive/folders/1Bx_ePv7ui6DCIXkESCpoyuvd0H3B9o6d?usp=sharing
 
 ########################################################################################
 
@@ -56,6 +56,6 @@ PIL 6.1.0
 ########################################################################################
 
 To cite the paper: 
-Xu Q., Fang F., del Monlino A.G, Subbaraju V., Lim J.H., Predicting Event Memorability from Contextual Visual Semantics, NeurIPS 2021.
+Xu Q., Fang F., del Molino A.G, Subbaraju V., Lim J.H., Predicting Event Memorability from Contextual Visual Semantics, NeurIPS 2021.
 
-If you have any question, please feel free to contact Dr Xu Qianli: qxu@i2r.a-star.edu.sg
+If you have any questions, please feel free to contact Dr Xu Qianli: qxu@i2r.a-star.edu.sg
