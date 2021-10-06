@@ -9,17 +9,19 @@ This repository contains pytorch implementation of five configurations in our pa
 ########################################################################################
 
 To train AMNet and CEMNet_wt_AMNet:
--python3 main.py --train-batch-size 128 --test-batch-size 128 --cnn ResNet50FC --dataset lamem --train-split train_1 --val-split val_1
+
+python3 main.py --train-batch-size 128 --test-batch-size 128 --cnn ResNet50FC --dataset lamem --train-split train_1 --val-split val_1
 
 To predict
--python3 main.py --cnn ResNet50FC --model-weights /path/to/model/weights_xx.pkl --eval-images /path/to/evl_images --csv-out memorabilities.txt
+
+python3 main.py --cnn ResNet50FC --model-weights /path/to/model/weights_xx.pkl --eval-images /path/to/evl_images --csv-out memorabilities.txt
 
 To train other models (ICNet, MLP, CEMNet_wt_ICNet):
 [Go the the respective folder, e.g., '../ICNet']
-- python main.py
+python main.py
 
 To predict (please select corresponding splits and model in predict.py)
-- python predict.py
+python predict.py
 [Where necessary, change Dataset.py to the corresponding directory of split]
 
 System configuration
